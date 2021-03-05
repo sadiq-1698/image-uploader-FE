@@ -1,0 +1,23 @@
+.center-card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: var(--box-shadow);
+  padding: 36px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.center-card .header {
+  font-family: var(--font-family);
+  font-weight: var(--medium);
+  font-size: 18px;
+}
+
+.center-card .file-type {
+  font-family: var(--font-family);
+  font-weight: var(--medium);
+  font-size: 10px;
+  color: var(--grey);
+  margin-top: 16px;
+}
