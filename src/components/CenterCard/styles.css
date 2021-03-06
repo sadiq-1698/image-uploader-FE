@@ -1,6 +1,6 @@
 .center-card {
-  background-color: white;
-  border-radius: 12px;
+  background-color: var(--white);
+  border-radius: var(--larger-border);
   box-shadow: var(--box-shadow);
   padding: 36px 32px;
   display: flex;
@@ -11,13 +11,13 @@
 .center-card .header {
   font-family: var(--font-family);
   font-weight: var(--medium);
-  font-size: 18px;
+  font-size: var(--eta);
 }
 
-.center-card .file-type {
+.center-card .instruction {
   font-family: var(--font-family);
   font-weight: var(--medium);
-  font-size: 10px;
+  font-size: var(--alpha);
   color: var(--grey);
   margin-top: 16px;
 }

@@ -4,6 +4,7 @@
   /* fonts */
   --font-family: "Poppins", sans-serif;
   /* color codes */
+  --white: #ffffff;
   --grey: #828282;
   --background-grey: #f4f4f4;
   --light-grey: #f2f2f2;
@@ -13,10 +14,10 @@
   --medium: 500;
   --semi-bold: 600;
   /* font sizes */
-  --alpha: 14px;
-  --beta: 10px;
-  --gamma: 18px;
-  --eta: 12px;
+  --alpha: 10px;
+  --beta: 12px;
+  --gamma: 14px;
+  --eta: 18px;
   /* border radius */
   --smaller-border: 4px;
   --small-border: 6px;
