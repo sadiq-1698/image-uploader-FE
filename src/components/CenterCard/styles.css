@@ -12,6 +12,7 @@
   font-family: var(--font-family);
   font-weight: var(--medium);
   font-size: var(--eta);
+  margin-bottom: 16px;
 }
 
 .center-card .instruction {
@@ -19,5 +20,4 @@
   font-weight: var(--medium);
   font-size: var(--alpha);
   color: var(--grey);
-  margin-top: 16px;
 }

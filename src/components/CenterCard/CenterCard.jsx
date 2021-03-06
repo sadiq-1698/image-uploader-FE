@@ -7,7 +7,7 @@ const CenterCard = () => {
       <p className="header">Upload your image</p>
       <p className="instruction">File should be Jpeg, Png,...</p>
       <ImageDropzone />
-      <p className="instruction">or</p>
+      <p className="instruction no-margin">or</p>
     </div>
   );
 };
