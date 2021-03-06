@@ -1,0 +1,14 @@
+input[type="file"] {
+  display: none;
+}
+
+.button-class {
+  background-color: var(--blue);
+  border-radius: var(--medium-border);
+  padding: 8px 16px;
+  cursor: pointer;
+  font-family: var(--font-family);
+  font-size: var(--beta);
+  font-weight: var(--medium);
+  color: var(--white);
+}

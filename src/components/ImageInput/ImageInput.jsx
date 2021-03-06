@@ -3,7 +3,10 @@ import "./styles.css";
 const ImageInput = () => {
   return (
     <div>
-      <h1>Image Input </h1>
+      <label class="custom-file-upload">
+        <input type="file" accept="image/*" />
+        <span className="button-class">Choose a file</span>
+      </label>
     </div>
   );
 };

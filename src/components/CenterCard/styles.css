@@ -21,3 +21,7 @@
   font-size: var(--alpha);
   color: var(--grey);
 }
+
+.mrb-21 {
+  margin-bottom: 21px;
+}
