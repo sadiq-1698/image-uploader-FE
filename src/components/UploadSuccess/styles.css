@@ -29,6 +29,23 @@
   border-radius: var(--larger-border);
 }
 
+.upload-success {
+  background-color: var(--green);
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.upload-success .fa-check {
+  color: var(--white);
+}
+
 .mrb-25 {
   margin-bottom: 25px;
+}
+
+.mrb-12 {
+  margin-bottom: 12px;
 }
