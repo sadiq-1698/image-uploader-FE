@@ -2,7 +2,7 @@ import "./styles.css";
 import { PRESET } from "../../constants/constants";
 import addImage from "../../api/uploadImage";
 
-const ImageInput = () => {
+const ImageInput = ({ setSuccess, setUploading }) => {
   return (
     <div>
       <label className="custom-file-upload">
@@ -12,12 +12,17 @@ const ImageInput = () => {
     </div>
   );
 
-  function uploadImage(e) {
+  async function uploadImage(e) {
+    setUploading(true);
     let targetValue = e.target.files;
     const formData = new FormData();
     formData.append("file", targetValue[0]);
     formData.append("upload_preset", PRESET);
-    addImage(formData);
+    const { data } = await addImage(formData);
+    if (data) {
+      setSuccess(true);
+      setUploading(false);
+    }
   }
 };
 
