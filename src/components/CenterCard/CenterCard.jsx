@@ -20,7 +20,11 @@ const CenterCard = () => {
             <>
               <p className="header mrb-16">Upload your image</p>
               <p className="instruction">File should be Jpeg, Png,...</p>
-              <ImageDropzone />
+              <ImageDropzone
+                setSuccess={setSuccess}
+                setUploading={setUploading}
+                setUrl={setUrl}
+              />
               <p className="instruction mrb-21">or</p>
               <ImageInput
                 setSuccess={setSuccess}

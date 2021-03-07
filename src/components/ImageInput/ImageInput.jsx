@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 
-import { PRESET } from "../../constants/constants";
 import addImage from "../../api/uploadImage";
+import handleFormData from "../../utils/formData";
 
 import "./styles.css";
 
@@ -14,13 +14,6 @@ const ImageInput = ({ setSuccess, setUploading, setUrl }) => {
       </label>
     </div>
   );
-
-  function handleFormData(file) {
-    const formData = new FormData();
-    formData.append("file", file);
-    formData.append("upload_preset", PRESET);
-    return formData;
-  }
 
   async function uploadImage(e) {
     setUploading(true);

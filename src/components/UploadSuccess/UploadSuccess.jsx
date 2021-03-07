@@ -11,7 +11,7 @@ const UploadSuccess = ({ imageUrl }) => {
   return (
     <>
       <div className="upload-success mrb-12">
-        <i class="fa fa-check" aria-hidden="true"></i>
+        <i className="fa fa-check" aria-hidden="true"></i>
       </div>
       <p className="header mrb-25">Uploaded Successfully!</p>
       <UploadedImage imageUrl={imageUrl} />
