@@ -13,9 +13,13 @@ const UploadSuccess = ({ imageUrl }) => {
       <div className="upload-success mrb-12">
         <i className="fa fa-check" aria-hidden="true"></i>
       </div>
+
       <p className="header mrb-25">Uploaded Successfully!</p>
+
       <UploadedImage imageUrl={imageUrl} />
+
       <CopyToClipboard imageUrl={imageUrl} showToast={showToast} />
+
       <div className="toast-wrapper">
         {toast ? <div className="toast">Copied to clipboard</div> : null}
       </div>
