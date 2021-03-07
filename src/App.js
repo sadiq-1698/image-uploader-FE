@@ -1,12 +1,8 @@
 import "./App.css";
-import CenterCard from "./components/CenterCard/CenterCard";
+import ImageUploader from "./components/ImageUploader/ImageUploader";
 
 function App() {
   return <ImageUploader />;
 }
-
-const ImageUploader = () => {
-  return <CenterCard />;
-};
 
 export default App;
