@@ -20,11 +20,13 @@ const ImageInput = ({ setSuccess, setUploading, setUrl }) => {
     let targetValue = e.target.files;
     const formData = handleFormData(targetValue[0]);
     const { data } = await addImage(formData);
-    if (data) {
-      setUrl(data.secure_url);
-      setSuccess(true);
-      setUploading(false);
-    }
+    if (data) updateStates(data);
+  }
+
+  function updateStates(data) {
+    setUrl(data.secure_url);
+    setSuccess(true);
+    setUploading(false);
   }
 };
 
