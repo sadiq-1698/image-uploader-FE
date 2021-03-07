@@ -10,22 +10,17 @@
   align-items: center;
 }
 
-.center-card .header,
-.instruction {
+.center-card .instruction {
   font-family: var(--font-family);
   font-weight: var(--medium);
-}
-
-.center-card .header {
-  font-size: var(--eta);
-  margin-bottom: 16px;
-}
-
-.center-card .instruction {
   font-size: var(--alpha);
   color: var(--grey);
 }
 
 .mrb-21 {
   margin-bottom: 21px;
+}
+
+.mrb-16 {
+  margin-bottom: 16px;
 }

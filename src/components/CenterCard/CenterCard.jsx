@@ -18,7 +18,7 @@ const CenterCard = () => {
         <>
           {!success ? (
             <>
-              <p className="header">Upload your image</p>
+              <p className="header mrb-16">Upload your image</p>
               <p className="instruction">File should be Jpeg, Png,...</p>
               <ImageDropzone />
               <p className="instruction mrb-21">or</p>

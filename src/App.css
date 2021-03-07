@@ -8,6 +8,7 @@
   --grey: #828282;
   --mild-grey: #f6f8fb;
   --background-grey: #f4f4f4;
+  --border-grey: #e0e0e0;
   --light-grey: #f2f2f2;
   --blue: #2f80ed;
   /* font weights */
@@ -51,4 +52,10 @@ body {
   font-size: var(--beta);
   font-weight: var(--medium);
   color: var(--white);
+}
+
+.header {
+  font-family: var(--font-family);
+  font-size: var(--eta);
+  font-weight: var(--medium);
 }

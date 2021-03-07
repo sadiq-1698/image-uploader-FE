@@ -2,10 +2,7 @@
   width: 100%;
 }
 
-.uploading {
-  font-family: var(--font-family);
-  font-size: var(--eta);
-  font-weight: var(--medium);
+.mrb-30 {
   margin-bottom: 30px;
 }
 

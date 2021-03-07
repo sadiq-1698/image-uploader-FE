@@ -1,6 +1,8 @@
 .url-container {
   max-width: 100%;
   background-color: var(--mild-grey);
+  border: 1px solid var(--border-grey);
+  border-radius: var(--medium-border);
   padding-left: 8px;
   display: flex;
   justify-content: space-between;
@@ -15,4 +17,18 @@
   font-size: var(--alpha);
   font-family: var(--font-family);
   font-weight: var(--medium);
+}
+
+.img-container {
+  width: 100%;
+  height: 225px;
+  margin-bottom: 25px;
+  background-color: var(--mild-grey);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: var(--larger-border);
+}
+
+.mrb-25 {
+  margin-bottom: 25px;
 }
