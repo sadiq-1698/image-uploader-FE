@@ -1,19 +1,6 @@
-.url-container {
-  max-width: 100%;
-  background-color: var(--mild-grey);
-  border: 1px solid var(--border-grey);
-  border-radius: var(--medium-border);
-  padding-left: 8px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  overflow: hidden;
-}
-
 .toast-wrapper {
   min-width: 100%;
   position: relative;
-  background-color: red;
 }
 
 .toast {
@@ -28,25 +15,6 @@
   top: 5px;
 }
 
-.url {
-  max-width: 75%;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  font-size: var(--alpha);
-  font-family: var(--font-family);
-  font-weight: var(--medium);
-}
-
-.img-container {
-  width: 100%;
-  height: 225px;
-  margin-bottom: 25px;
-  background-color: var(--mild-grey);
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: var(--larger-border);
-}
-
 .upload-success {
   background-color: var(--green);
   border-radius: 50%;
@@ -56,6 +24,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .upload-success .fa-check {
   color: var(--white);
 }

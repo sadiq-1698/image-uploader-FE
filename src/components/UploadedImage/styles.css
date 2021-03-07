@@ -1,0 +1,9 @@
+.img-container {
+  width: 100%;
+  height: 225px;
+  margin-bottom: 25px;
+  background-color: var(--mild-grey);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: var(--larger-border);
+}
