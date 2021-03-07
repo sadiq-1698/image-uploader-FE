@@ -10,6 +10,24 @@
   overflow: hidden;
 }
 
+.toast-wrapper {
+  min-width: 100%;
+  position: relative;
+  background-color: red;
+}
+
+.toast {
+  background-color: var(--border-grey);
+  font-size: var(--alpha);
+  font-family: var(--font-family);
+  font-weight: var(--medium);
+  border-radius: var(--small-border);
+  padding: 4px 6px;
+  position: absolute;
+  right: -5px;
+  top: 5px;
+}
+
 .url {
   max-width: 75%;
   overflow: hidden;

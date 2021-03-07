@@ -1,7 +1,11 @@
+import { useState } from "react";
+
 import PropTypes from "prop-types";
 import "./styles.css";
 
 const UploadSuccess = ({ imageUrl }) => {
+  const [toast, showToast] = useState(false);
+
   return (
     <>
       <div className="upload-success mrb-12">
@@ -14,10 +18,23 @@ const UploadSuccess = ({ imageUrl }) => {
       />
       <div className="url-container">
         <span className="url">{imageUrl}</span>
-        <span className="button-class">Copy link</span>
+        <span className="button-class" onClick={copyToClipboard}>
+          Copy link
+        </span>
+      </div>
+      <div className="toast-wrapper">
+        {toast ? <div className="toast">Copied to clipboard</div> : null}
       </div>
     </>
   );
+
+  function copyToClipboard() {
+    navigator.clipboard.writeText(imageUrl);
+    showToast(true);
+    setTimeout(() => {
+      showToast(false);
+    }, 1500);
+  }
 };
 
 UploadSuccess.propTypes = {
