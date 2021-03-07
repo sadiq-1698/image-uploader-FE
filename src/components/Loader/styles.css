@@ -1,0 +1,43 @@
+.loader {
+  width: 100%;
+}
+
+.uploading {
+  font-family: var(--font-family);
+  font-size: var(--eta);
+  font-weight: var(--medium);
+  margin-bottom: 30px;
+}
+
+.outer,
+.inner {
+  height: 6px;
+  border-radius: var(--small-border);
+}
+
+.outer {
+  position: relative;
+  overflow: hidden;
+  background-color: var(--light-grey);
+  width: 100%;
+}
+
+.outer .inner {
+  position: absolute;
+  background-color: var(--blue);
+  width: 40%;
+  transition: all 1s ease-in-out;
+  animation: 1.4s loader infinite;
+}
+
+@keyframes loader {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: 100%;
+  }
+  100% {
+    left: 0;
+  }
+}
