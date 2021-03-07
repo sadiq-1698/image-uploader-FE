@@ -1,8 +1,9 @@
 import { useState } from "react";
 import ImageDropzone from "../ImageDropzone/ImageDropzone";
 import ImageInput from "../ImageInput/ImageInput";
-import "./styles.css";
 import Loader from "../Loader/Loader";
+import UploadSuccess from "../UploadSuccess/UploadSuccess";
+import "./styles.css";
 
 const CenterCard = () => {
   const [uploading, setUploading] = useState(false);
@@ -26,10 +27,9 @@ const CenterCard = () => {
                 setUploading={setUploading}
                 setUrl={setUrl}
               />
-              <Loader />
             </>
           ) : (
-            <div>Success</div>
+            <UploadSuccess imageUrl={url} />
           )}
         </>
       )}

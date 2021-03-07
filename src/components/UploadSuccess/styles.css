@@ -1,0 +1,18 @@
+.url-container {
+  max-width: 100%;
+  background-color: var(--mild-grey);
+  padding-left: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+
+.url {
+  max-width: 75%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: var(--alpha);
+  font-family: var(--font-family);
+  font-weight: var(--medium);
+}

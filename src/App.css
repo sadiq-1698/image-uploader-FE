@@ -6,6 +6,7 @@
   /* color codes */
   --white: #ffffff;
   --grey: #828282;
+  --mild-grey: #f6f8fb;
   --background-grey: #f4f4f4;
   --light-grey: #f2f2f2;
   --blue: #2f80ed;
@@ -39,4 +40,15 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.button-class {
+  background-color: var(--blue);
+  border-radius: var(--medium-border);
+  padding: 8px 16px;
+  cursor: pointer;
+  font-family: var(--font-family);
+  font-size: var(--beta);
+  font-weight: var(--medium);
+  color: var(--white);
 }

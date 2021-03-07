@@ -3,22 +3,25 @@
   border-radius: var(--larger-border);
   box-shadow: var(--box-shadow);
   min-width: 370px;
+  max-width: 370px;
   padding: 36px 32px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.center-card .header {
+.center-card .header,
+.instruction {
   font-family: var(--font-family);
   font-weight: var(--medium);
+}
+
+.center-card .header {
   font-size: var(--eta);
   margin-bottom: 16px;
 }
 
 .center-card .instruction {
-  font-family: var(--font-family);
-  font-weight: var(--medium);
   font-size: var(--alpha);
   color: var(--grey);
 }
