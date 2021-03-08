@@ -2,7 +2,6 @@
   "name": "image-uploader",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mohammedsadiq.dev/apps/image-uploader/",
   "dependencies": {
     "axios": "^0.21.1",
     "cra-template": "1.1.2",
